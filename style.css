@@ -19,8 +19,6 @@
   margin: 0 auto;
 }
 
-
-
 /* 
     Header  and navigation syles
  */
@@ -87,9 +85,6 @@ nav .icon-burger > i {
   color: black;
 }
 
-
-
-
 /* 
      Top or hero section styles
  */
@@ -136,12 +131,47 @@ nav .icon-burger > i {
 }
 
 .hero-img img {
-  /* width: 100%; */
   place-items: center;
 }
 
+/* 
+    Company logos section
+ */
+.comp-logo .logos {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 4rem;
+  margin-bottom: 5.5rem;
+}
 
+/* 
+    Populer collection section responsive styles
+   */
 
+.products {
+  margin: 0 auto;
+}
+.products > h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  font-size: 28px;
+  color: #3a3a3a;
+}
+
+.products .card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+  grid-column-gap: 30px;
+}
+.products .card-container .card {
+  width: 300px;
+  height: 400px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  border: 1px solid black;
+}
 
 /* ....................................................... */
 /* 
@@ -210,8 +240,6 @@ nav .icon-burger > i {
     opacity: 0;
   }
 
-
-
   /*
     Hero section responsive styles 
    */
@@ -241,5 +269,24 @@ nav .icon-burger > i {
   }
   .hero-contents p {
     text-align: center;
+  }
+
+  /*
+    Company logos sections Responsive styles
+   */
+  .comp-logo {
+    width: 100%;
+  }
+  .comp-logo .logos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0 15px;
+  }
+
+  /* 
+    Populer collection section responsive styles
+   */
+  .products .card-container .card {
   }
 }
