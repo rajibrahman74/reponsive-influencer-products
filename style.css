@@ -14,12 +14,10 @@
 }
 
 .container {
-    max-width: 1200px;
-    width: 100%;
+  max-width: 1250px;
+  width: 100%;
+  margin: 0 auto;
 }
-
-
-
 
 
 
@@ -50,6 +48,7 @@ nav .logo {
   font-size: 20px;
   color: black;
   font-weight: 700;
+  cursor: pointer;
 }
 nav .links {
   width: 60%;
@@ -92,25 +91,54 @@ nav .icon-burger > i {
 
 
 /* 
-     Tor or hero section styles
+     Top or hero section styles
  */
 
+.hero-section {
+  display: flex;
+  gap: 131px;
+  align-items: center;
+}
 
+.hero-contents {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
 
+.hero-contents h1 {
+  font-weight: 700;
+  font-size: 42px;
+  color: #3a3a3a;
+}
 
+.hero-contents p {
+  font-weight: 500;
+  color: #3a3a3a;
+}
 
+.hero-contents .hero-btn {
+  width: 196px;
+  height: 44px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  background: #e02c6d;
+  border-radius: 41px;
+}
 
+.hero-img {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-
-
-
-
-
-
-
-
-
-
+.hero-img img {
+  /* width: 100%; */
+  place-items: center;
+}
 
 
 
@@ -121,15 +149,17 @@ nav .icon-burger > i {
  */
 /* ....................................................... */
 
-
-
 /*
     Responnsive For Mobile Devices
  */
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 688px) {
+  /*
+        Header and navigation bar responsive styles 
+     */
   nav {
     height: 100px;
+    width: 100%;
     padding: 0 25px;
   }
   nav .logo {
@@ -156,6 +186,10 @@ nav .icon-burger > i {
   nav .links li {
     font-size: 17px;
     color: white;
+    font-family: "Poppins";
+  }
+  nav .links li > i {
+    display: none;
   }
   nav .links li a {
     color: white;
@@ -174,5 +208,38 @@ nav .icon-burger > i {
   }
   nav :checked ~ .icon-burger .line:nth-child(2) {
     opacity: 0;
+  }
+
+
+
+  /*
+    Hero section responsive styles 
+   */
+  .hero-section {
+    width: 100%;
+    flex-direction: column-reverse;
+    gap: 14px;
+  }
+
+  .hero-img {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-img img {
+    width: 80%;
+  }
+
+  .hero-contents {
+    width: 100%;
+    align-items: center;
+  }
+  .hero-contents h1 {
+    font-weight: 600;
+    text-align: center;
+    font-size: 28px;
+  }
+  .hero-contents p {
+    text-align: center;
   }
 }
