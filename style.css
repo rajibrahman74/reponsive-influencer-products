@@ -240,10 +240,6 @@ nav .icon-burger > i {
   margin-bottom: 5.5rem;
 }
 
-.about .about-img {
-  width: ;
-}
-
 .about .about-contents {
   display: flex;
   flex-direction: column;
@@ -329,8 +325,8 @@ footer .footer-contents {
      */
 
   nav {
-    height: 100px;
     width: 100%;
+    height: 100px;
     padding: 0 25px;
   }
   nav .logo {
