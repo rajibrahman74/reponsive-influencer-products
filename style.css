@@ -3,9 +3,6 @@
  */
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitter&family=Dancing+Script:wght@500&family=Edu+NSW+ACT+Foundation&family=Edu+SA+Beginner:wght@700&family=Inter&family=Lobster&family=Merriweather&family=Noto+Sans&family=Open+Sans&family=Poppins:wght@400;500&family=Roboto:wght@500&family=Splash&display=swap");
 
-
-
-
 /*
     All  common styles
  */
@@ -22,8 +19,6 @@
   width: 100%;
   margin: 0 auto;
 }
-
-
 
 /* 
     Header  and navigation syles
@@ -91,9 +86,6 @@ nav .icon-burger > i {
   color: black;
 }
 
-
-
-
 /* 
      Top or hero section styles
  */
@@ -143,8 +135,6 @@ nav .icon-burger > i {
   place-items: center;
 }
 
-
-
 /* 
     Company logos section
  */
@@ -154,8 +144,6 @@ nav .icon-burger > i {
   margin-top: 4rem;
   margin-bottom: 5.5rem;
 }
-
-
 
 /* 
     Populer collection section responsive styles
@@ -240,9 +228,6 @@ nav .icon-burger > i {
   cursor: pointer;
 }
 
-
-
-
 /* 
     About section styles
  */
@@ -285,8 +270,6 @@ nav .icon-burger > i {
   background: #e02c6d;
 }
 
-
-
 /*
     Footer styles
  */
@@ -315,7 +298,7 @@ footer .footer-contents {
 
 .footer-contents .footer-icons {
   display: flex;
-  gap: 16px;
+  gap: 10px;
   justify-content: center;
   align-items: center;
 }
@@ -330,16 +313,11 @@ footer .footer-contents {
   color: white;
 }
 
-
-
-
 /* ....................................................... */
 /* 
     Responsive all styles here,
  */
 /* ....................................................... */
-
-
 
 /*
     Responnsive For Mobile Devices
@@ -403,8 +381,6 @@ footer .footer-contents {
     opacity: 0;
   }
 
-
-
   /*
     Hero section responsive styles 
    */
@@ -436,8 +412,6 @@ footer .footer-contents {
     text-align: center;
   }
 
-
-
   /*
     Company logos sections Responsive styles
    */
@@ -450,8 +424,6 @@ footer .footer-contents {
     gap: 30px;
     padding: 0 15px;
   }
-
-
 
   /* 
     Populer collection section responsive styles
@@ -468,8 +440,6 @@ footer .footer-contents {
     place-items: center;
     margin-bottom: 32px;
   }
-
-
 
   /* 
     About section responsive styles
@@ -509,5 +479,17 @@ footer .footer-contents {
 
   .about .about-contents p {
     text-align: center;
+  }
+
+  /*
+    Footer responsive styles 
+   */
+
+  footer .footer-contents {
+    width: 100%;
+  }
+  
+  .footer-contents small {
+    font-size: 12px;
   }
 }
