@@ -43,7 +43,7 @@ nav .logo {
   height: 100%;
   display: flex;
   align-items: center;
-  font-size: 20px;
+  font-size: 16px;
   color: black;
   font-weight: 700;
   cursor: pointer;
@@ -81,7 +81,7 @@ nav .icon-burger {
 }
 
 nav .icon-burger > i {
-  font-size: 23px;
+  font-size: 20px;
   color: black;
 }
 
@@ -241,6 +241,7 @@ nav .icon-burger > i {
   /*
         Header and navigation bar responsive styles 
      */
+
   nav {
     height: 100px;
     width: 100%;
@@ -341,6 +342,16 @@ nav .icon-burger > i {
   /* 
     Populer collection section responsive styles
    */
-  /* .products .card-container .card {
-  } */
+  .products {
+    width: 100%;
+  }
+  .products > h2 {
+    font-size: 16px;
+  }
+
+  .products .card-container {
+    grid-template-columns: repeat(1, 1fr);
+    place-items: center;
+    margin-bottom: 32px;
+  }
 }
