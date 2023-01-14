@@ -3,6 +3,9 @@
  */
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitter&family=Dancing+Script:wght@500&family=Edu+NSW+ACT+Foundation&family=Edu+SA+Beginner:wght@700&family=Inter&family=Lobster&family=Merriweather&family=Noto+Sans&family=Open+Sans&family=Poppins:wght@400;500&family=Roboto:wght@500&family=Splash&display=swap");
 
+
+
+
 /*
     All  common styles
  */
@@ -14,13 +17,13 @@
   scroll-behavior: smooth;
 }
 
-}
-
 .container {
   max-width: 1250px;
   width: 100%;
   margin: 0 auto;
 }
+
+
 
 /* 
     Header  and navigation syles
@@ -88,6 +91,9 @@ nav .icon-burger > i {
   color: black;
 }
 
+
+
+
 /* 
      Top or hero section styles
  */
@@ -137,6 +143,8 @@ nav .icon-burger > i {
   place-items: center;
 }
 
+
+
 /* 
     Company logos section
  */
@@ -146,6 +154,8 @@ nav .icon-burger > i {
   margin-top: 4rem;
   margin-bottom: 5.5rem;
 }
+
+
 
 /* 
     Populer collection section responsive styles
@@ -230,6 +240,9 @@ nav .icon-burger > i {
   cursor: pointer;
 }
 
+
+
+
 /* 
     About section styles
  */
@@ -272,11 +285,61 @@ nav .icon-burger > i {
   background: #e02c6d;
 }
 
+
+
+/*
+    Footer styles
+ */
+
+footer {
+  background: #0a0826;
+}
+
+footer .footer-contents {
+  height: 239px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 17px;
+  align-items: center;
+}
+
+.footer-contents .title-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  color: white;
+}
+
+.footer-contents .footer-icons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-icons .icon {
+  height: 2rem;
+  width: 2rem;
+}
+
+.footer-icons .icon a {
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
 /* ....................................................... */
 /* 
     Responsive all styles here,
  */
 /* ....................................................... */
+
+
 
 /*
     Responnsive For Mobile Devices
@@ -340,6 +403,8 @@ nav .icon-burger > i {
     opacity: 0;
   }
 
+
+
   /*
     Hero section responsive styles 
    */
@@ -371,6 +436,8 @@ nav .icon-burger > i {
     text-align: center;
   }
 
+
+
   /*
     Company logos sections Responsive styles
    */
@@ -383,6 +450,8 @@ nav .icon-burger > i {
     gap: 30px;
     padding: 0 15px;
   }
+
+
 
   /* 
     Populer collection section responsive styles
@@ -399,6 +468,8 @@ nav .icon-burger > i {
     place-items: center;
     margin-bottom: 32px;
   }
+
+
 
   /* 
     About section responsive styles
